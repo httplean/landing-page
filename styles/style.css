@@ -1,0 +1,242 @@
+body {
+    font-family: poppinslight;
+    margin: 0;
+    padding: 0;
+}   
+/*Cabeçalho*/
+header{
+    background-color: #01316e; /* Azul escuro */
+    height: 130px; /* Ocupa toda a altura da viewport */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px; 
+
+}    
+/*Estiliza os link*/
+ul{
+    text-align: center;
+    color: white;
+}
+li{
+    display: inline-block;
+    margin: 17px;
+}
+a{
+    color:white;
+    font-family: poppinssemibold;
+    text-decoration: none
+}
+a:hover{
+    color: #fc3132;
+    transition: 0.3s all;
+}
+
+h1{/*Katia Matias*/
+    font-weight: 200;
+    color:#f32a2a;
+    font-family: poppinssemibold;
+    font-size: 50px;
+    line-height: 15px;
+    margin-left: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+/*Dobra 1*/
+h2{ /*InglêS na prática...*/
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: poppinsmedium;
+    color: white;
+    margin: 0 40px;
+}
+h2:first-of-type{
+    margin: 120px 0 0 40px;
+}
+
+span{
+    color:#0458c5;
+}
+hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    background-color: #01316e;
+    margin:45px;
+}    
+p{
+    line-height: 25px;
+    max-width: 500px;
+    font-family: poppinslight;
+    font-size: 25px;
+    color: white;
+    margin-top: 65px;
+    padding:20px;
+    margin-bottom: 30px;
+}
+
+#isc_button{ /*Botão de "Começe agora!"*/
+    border: 3px solid #fc3132;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+#isc_button a{
+    color: white;
+}
+
+#isc_button:hover{
+    background-color: #fc3132;
+    text-decoration: none;
+}
+img{ /*Logo imagem*/
+    width: 455px;
+    height: 455px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    margin: 120px 40px 40px 0;
+}
+article{
+    margin-left: auto;
+}
+mark{
+    font-weight: bold;
+    color:#0247a1;
+    font-family: poppinssemibold;
+    font-size: 23px;
+    background-color: transparent;
+} 
+#dobra1 {
+    background-color: #4979bdf5; /* Azul claro */
+    padding: 50px 0; /* Espaçamento interno */
+    width: 100%; /* Garante que ocupe toda a largura */
+    height: 100vh;
+
+}
+/*Dobra 2*/ 
+
+h4{/*Título da dobra 2*/
+    color:#f32a2a;
+    font-family: poppinssemibold;
+    font-size: 70px;
+    margin-bottom: 50px;
+    margin-top: 70px;/*A distância entre  a dobra 1 a dobra 2*/
+    margin-left: 25px;
+}
+
+h3{/*Módulos*/
+    font-family: poppinssemibold;
+    font-size: 20px;
+    margin: 50 0 5 0px;
+}   
+
+h5{
+    font-family: poppinssemibold;
+    font-size: 20px;
+    display: flex;
+    margin-top: 50px;
+}
+
+#column_left{ /*Coloca a coluna à esquerda*/
+    width: 100px;
+    height: 100px;
+}
+#column_righ{/*Coloca a coluna à direita*/
+    width: 100px;
+    height: 100px;
+}
+
+#container p{/*Estiliza as Lessons*/
+    color:black;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    background-color: #e0edfa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+/* Gradiente para o Container */
+#container {
+    font-family: poopinslight;
+    background-color: rgba(248, 247, 247, 0.959); /* Quase branco */
+    padding: 60px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height:100vh;
+}
+#container mark{
+    font-size: 20px;
+}
+#container span{
+    color:black;
+    font-size: 20px;
+    font-family: poppinssemibold;
+}
+/*Dobra 3*/
+.dobra3 p:first-of-type {
+    margin-top: 15%; /* Adiciona margem superior apenas ao primeiro parágrafo */
+    margin-bottom: 15px;
+}
+.dobra3 p:last-of-type {
+    margin-bottom: 50px; /* Adiciona margem inferior apenas ao último parágrafo */
+}
+.dobra3 p {
+    font-size: 25px;
+    color: #004aad;
+    text-align: center; 
+    max-width: 1200px; 
+    width: 100%;
+    margin: 0 auto; 
+    line-height: 30px;
+} 
+.dobra3 mark{
+    font-size: 25px;
+}  
+
+#db3 #isc_button:hover{
+    background-color: #fc3132;
+    text-decoration: none;
+}
+#db3 #isc_button{
+    padding: 15px 30px;
+    margin-top: 25px;
+}
+
+#db3 #isc_button a{
+    font-size: 24px;
+}
+/* Gradiente para a Dobra 3 */
+.dobra3 {
+    background-color: #81b8ff; /* Azul claro */
+    width: 100%;
+    padding: 50px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+/*Rodapé*/
+footer{
+    background-color: #01316e; /* Azul escuro */
+    height: 160px; /* Ocupa toda a altura da viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    text-align: center; 
+    font-size: 18px;
+    margin: 0;
+}

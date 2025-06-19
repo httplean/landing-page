@@ -1,0 +1,49 @@
+@media screen and (max-width: 760px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    }
+    h1{
+      margin-left: 10px;
+    }
+    main{
+      flex-direction: column;
+      margin-top: 0;
+    }
+    #isc_button{
+      margin-left: 20px;
+    }
+    h2{
+      font-size: 38px;
+    }
+    img.hide-on-mobile {
+      display: none;
+    }
+    #container {
+      flex-direction: column; /* Alinha os módulos verticalmente */
+      align-items: center; /* Centraliza os módulos */
+      margin:auto;
+      padding: 10px 0;
+      height: 100%;
+  }
+
+  #container p {
+      width: 80%; /* Ajusta a largura dos módulos para caber na tela */
+      max-width: 400px;
+      margin: auto; /* Remove o recuo à esquerda */
+      margin-bottom: 20px;
+      font-size: 20px;
+  }
+  .dobra3 p{
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+  }
+}
+footer{
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
