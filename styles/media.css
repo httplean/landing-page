@@ -14,10 +14,9 @@
     overflow-x: hidden;
     height:130px;
     align-items: center;
-    margin-left:auto 35px auto 20px;
+    margin:auto 35px auto 20px;
   }
   h1{
-    margin-right:0;
     margin-left:15px;
   }
   h2{
@@ -76,7 +75,7 @@
   }
   #db3 #isc_button{
     padding: 15px 30px;
-    margin-top: 25px;
+    margin: 25px 35px;
   }
   .dobra3{
     margin:auto;
