@@ -25,8 +25,8 @@
     line-height: 1.2;
     margin: 0 25px 0 30px;
   }
-  #isc_button{
-    margin-left: 65px;
+  header #isc_button{
+    margin-left: 60px;
   }
   h2:first-of-type{
       margin: 25px 0 0 30px;
@@ -55,9 +55,6 @@
     margin-top: 35px;
   }
 
-
-
-
   img.hide-on-mobile {
     display: none;
   }
@@ -77,6 +74,10 @@
     margin-bottom: 20px;
     font-size: 20px;
   }
+  #db3 #isc_button{
+    padding: 15px 30px;
+    margin-top: 25px;
+  }
   .dobra3{
     margin:auto;
     padding: 10px 0;
@@ -93,4 +94,5 @@
     padding: 20px;
     text-align: center;
   }
+
 }
