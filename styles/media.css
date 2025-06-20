@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  #dobra1{
+    overflow-x: hidden;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: hidden;
+    height:130px;
+    align-items: center;
+  }
+  h2{
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 0 40px;
+  }
+  h2:first-of-type{
+      margin: 120px 0 0 40px;
+  }
+  main{
+    flex-direction: column;
+    height: auto;
+    gap: 5;
+  }  
+
+  #title{
+  margin: auto;
+  }
+  p{
+    width: 90%;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    height: auto;
+  }
+
+
+  #isc_button{
+    margin-left: 10px;
+  }
+
+  img.hide-on-mobile {
+    display: none;
+  }
+  #container {
+    flex-direction: column; /* Alinha os módulos verticalmente */
+    align-items: center; /* Centraliza os módulos */
+    margin:auto;
+    padding: 10px 0;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  #container p {
+    width: 80%; /* Ajusta a largura dos módulos para caber na tela */
+    max-width: 400px;
+    margin: auto; /* Remove o recuo à esquerda */
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .dobra3{
+    margin:auto;
+    padding: 10px 0;
+    height: auto;/*garante que a dobra 3 oculpe 100% da altura da tela*/
+    overflow-x: hidden;
+  }
+  .dobra3 p{
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+  }
+  footer{
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+}
