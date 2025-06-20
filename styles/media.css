@@ -42,13 +42,13 @@
     justify-content: space-between;
     margin: 30px;
     height: auto;
-    max-width: 90%;
+    max-width: 100%;
     text-align: left;
   }
 
 
   #isc_button{
-    margin-left: 10px;
+    margin-left: 30px;
   }
 
   img.hide-on-mobile {
