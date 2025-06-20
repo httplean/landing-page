@@ -25,7 +25,7 @@
     line-height: 1.2;
     margin: 0 25px 0 30px;
   }
-  #isc_button:{
+  #isc_button{
     margin-left:65px;
   }
   h2:first-of-type{
@@ -91,5 +91,8 @@
     padding: 20px;
     text-align: center;
 
+  }
+  #btt2{
+    margin-top: 15px;
   }
 }
