@@ -50,10 +50,12 @@
     justify-content: space-between;
     margin: 25px;
     height: auto;
-    max-width: 100%;
+    max-width: 90%;
     text-align: left;
     margin-top: 35px;
   }
+
+
 
 
   img.hide-on-mobile {
