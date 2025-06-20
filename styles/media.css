@@ -26,7 +26,7 @@
     margin: 0 25px 0 30px;
   }
   #isc_button{
-    margin-left:65px;
+    margin-left: 65px;
   }
   h2:first-of-type{
       margin: 25px 0 0 30px;
@@ -87,7 +87,7 @@
     width: 90%;
   }
   footer{
-    height: 135px;
+    height: auto;
     padding: 20px;
     text-align: center;
   }
