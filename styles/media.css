@@ -17,15 +17,19 @@
     margin-left:auto 35px auto 20px;
   }
   h1{
-    margin-right:auto;
+    margin-right:0;
+    margin-left:15px;
   }
   h2{
     font-size: 36px;
     line-height: 1.2;
     margin: 0 25px 0 30px;
   }
+  #isc_button:{
+    margin-left:65px;
+  }
   h2:first-of-type{
-      margin: 25px 25px 0 25px;
+      margin: 25px 0 0 30px;
       text-align: left;
   }
   hr{
