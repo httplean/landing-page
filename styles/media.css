@@ -14,17 +14,19 @@
     overflow-x: hidden;
     height:130px;
     align-items: center;
+    margin:auto;
   }
   h1{
     margin-left:15px;
+    margin-right: 0;
   }
   h2{
     font-size: 36px;
     line-height: 1.2;
     margin: 0 25px 0 30px;
   }
-  header #isc_button{
-    margin-left: 60px;
+  #isc_button{
+    margin-right: 50px;
   }
   h2:first-of-type{
       margin: 25px 0 0 30px;
@@ -74,7 +76,8 @@
   }
   #db3 #isc_button{
     padding: 15px 30px;
-    margin: 25px 35px;
+    margin: auto;
+    margin-right: 40px;
   }
   .dobra3{
     margin:auto;
@@ -88,8 +91,7 @@
     width: 90%;
   }
   footer{
-    height: auto;
-    padding: 20px;
+    padding: 10px 0;
     text-align: center;
   }
 
