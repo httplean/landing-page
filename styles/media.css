@@ -88,11 +88,10 @@
   }
   footer{
     height: 135px;
-    padding: 20px;
     text-align: center;
-
   }
-  #btt2{
-    margin-top: 15px;
+  #btt2 {
+    margin: 15px 40px 15px 40px;
+
   }
 }
